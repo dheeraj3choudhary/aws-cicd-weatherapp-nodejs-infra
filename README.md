@@ -1,6 +1,6 @@
 <div align="center">
 
-# weather-app-infra
+# Weather Application Infra Pipeline
 Infrastructure as Code for the Weather App CI/CD pipeline on AWS. This repository manages all AWS infrastructure using CloudFormation and contains the bootstrap pipeline that provisions everything from scratch.
 
 
