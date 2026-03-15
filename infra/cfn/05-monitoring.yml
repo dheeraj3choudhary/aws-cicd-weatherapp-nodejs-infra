@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 05-monitoring.yml - CloudWatch alarms and log groups for weather-app
+
+Resources:
+
+  # CodeBuild Log Group
+  CodeBuildLogGroup:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Retain
+    Properties:
+      LogGroupName: /aws/codebuild/weather-app-build
+      RetentionInDays: 14
+
+  InfraValidateLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /aws/codebuild/weather-app-infra-validate
+      RetentionInDays: 14
+
+  # CloudWatch Alarm - EC2 CPU
+  EC2CPUAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: weather-app-ec2-cpu-high
+      AlarmDescription: EC2 CPU utilization above 80%
+      MetricName: CPUUtilization
+      Namespace: AWS/EC2
+      Statistic: Average
+      Period: 300
+      EvaluationPeriods: 2
+      Threshold: 80
+      ComparisonOperator: GreaterThanThreshold
+      Dimensions:
+        - Name: InstanceId
+          Value: !ImportValue weather-app-ec2-instance-id
+      TreatMissingData: notBreaching
+
+Outputs:
+  CodeBuildLogGroupName:
+    Value: !Ref CodeBuildLogGroup
+    Export:
+      Name: weather-app-codebuild-log-group
+
+  EC2CPUAlarmName:
+    Value: !Ref EC2CPUAlarm
+    Export:
+      Name: weather-app-ec2-cpu-alarm

@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# Secrets — never commit these
+*.env
+.env
+.env.*
+secrets.yml
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.bak
