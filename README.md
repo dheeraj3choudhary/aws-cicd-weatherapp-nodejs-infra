@@ -1,7 +1,7 @@
 <div align="center">
 
 # Weather Application Infra Pipeline
-Infrastructure as Code for the Weather App CI/CD pipeline on AWS. This repository manages all AWS infrastructure using CloudFormation and contains the bootstrap pipeline that provisions everything from scratch.
+Infrastructure as Code for the Weather App CI/CD pipeline on AWS. This repository manages all AWS infrastructure using CloudFormation and contains the bootstrap pipeline that provisions everything from scratch. The companion infrastructure repository is [currency-converter-infra](https://github.com/dheeraj3choudhary/aws-cicd-weatherapp-nodejs-application/tree/main)
 
 
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
