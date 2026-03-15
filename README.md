@@ -1,6 +1,35 @@
-# weather-app-infra
+<div align="center">
 
+# weather-app-infra
 Infrastructure as Code for the Weather App CI/CD pipeline on AWS. This repository manages all AWS infrastructure using CloudFormation and contains the bootstrap pipeline that provisions everything from scratch.
+
+
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+[![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/cloudformation/)
+[![CodePipeline](https://img.shields.io/badge/CodePipeline-4A154B?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/codepipeline/)
+[![CodeBuild](https://img.shields.io/badge/CodeBuild-3776AB?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/codebuild/)
+[![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
+[![ECR](https://img.shields.io/badge/ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/ecr/)
+[![IAM](https://img.shields.io/badge/IAM-DD344C?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/iam/)
+[![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/cloudwatch/)
+
+<a href="https://www.buymeacoffee.com/Dheeraj3" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="50">
+</a>
+
+## [Subscribe](https://www.youtube.com/@dheeraj-choudhary?sub_confirmation=1) to learn more About Artificial-Intellegence, Machine-Learning, Cloud & DevOps.
+
+<p align="center">
+<a href="https://www.linkedin.com/in/dheeraj-choudhary/" target="_blank">
+  <img height="100" alt="Dheeraj Choudhary | LinkedIN"  src="https://user-images.githubusercontent.com/60597290/152035581-a7c6c0c3-65c3-4160-89c0-e90ddc1e8d4e.png"/>
+</a> 
+
+<a href="https://www.youtube.com/@dheeraj-choudhary?sub_confirmation=1">
+    <img height="100" src="https://user-images.githubusercontent.com/60597290/152035929-b7f75d38-e1c2-4325-a97e-7b934b8534e2.png" />
+</a>    
+</p>
+
+</div>
 
 ---
 
