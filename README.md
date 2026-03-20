@@ -3,6 +3,8 @@
 # Weather Application Infra Pipeline
 Infrastructure as Code for the Weather App CI/CD pipeline on AWS. This repository manages all AWS infrastructure using CloudFormation and contains the bootstrap pipeline that provisions everything from scratch. The companion infrastructure repository is [weather-app-infra](https://github.com/dheeraj3choudhary/aws-cicd-weatherapp-nodejs-application/tree/main)
 
+<img width="4000" height="2250" alt="cicd_project1" src="https://github.com/user-attachments/assets/55b4f404-1ce3-488a-9ca9-e502de5bfc05" />
+
 
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 [![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/cloudformation/)
